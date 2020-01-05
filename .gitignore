@@ -1,0 +1,5 @@
+node_modules
+build
+examples/next-nav/node_modules
+.expo
+yarn-error.log

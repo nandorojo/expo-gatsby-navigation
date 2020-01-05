@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "next-navigation",
+    "slug": "next-nav",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+	"name": "expo-gatsby-navigation",
+	"version": "0.0.01",
+	"description": "Make Gatsby and react-navigation play nicely together with an Expo/React Native Web app.",
+	"sideEffects": true,
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"repository": "https://github.com/nandorojo/expo-next-react-navigation",
+	"author": "Fernando Rojo",
+	"license": "MIT",
+	"scripts": {
+		"build": "expo-module build",
+		"clean": "expo-module clean",
+		"lint": "expo-module lint",
+		"test": "expo-module test",
+		"prepare": "expo-module prepare",
+		"prepublishOnly": "expo-module prepublishOnly",
+		"expo-module": "expo-module"
+	},
+	"files": [
+		"build"
+	],
+	"jest": {
+		"preset": "jest-expo-enzyme"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.149",
+		"@types/react": "^16.9.16",
+		"babel-jest": "^24.9.0",
+		"babel-preset-gatsby": "^0.2.26",
+		"eslint": "^6.8.0",
+		"eslint-config-universe": "^2.1.0",
+		"expo-module-scripts": "^1.1.1",
+		"identity-obj-proxy": "^3.0.0",
+		"jest": "^24.9.0",
+		"jest-expo-enzyme": "^0.0.1",
+		"prettier": "^1.19.1",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+		"react-native-web": "^0.11.7",
+		"react-test-renderer": "^16.12.0"
+	},
+	"dependencies": {
+		"expo-navigation-core": "^0.0.1",
+		"gatsby": "^2.18.17",
+		"lodash": "^4.17.15",
+		"react-navigation-hooks": "^1.1.0"
+	}
+}
