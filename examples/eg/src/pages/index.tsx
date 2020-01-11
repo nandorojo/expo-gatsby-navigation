@@ -1,6 +1,25 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View, StyleSheet } from 'react-native'
 
 export default function Home() {
-	return <Text>Does it work?</Text>
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Home Screen 🥳</Text>
+      <Link style={{ color: 'green', fontSize: 20 }} routeName="Profile">
+        Click me to open profile :)
+      </Link>
+    </View>
+  )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: 20,
+    margin: 20,
+  },
+})
