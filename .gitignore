@@ -1,6 +1,5 @@
 node_modules
 build
-examples/expo-gatsby/node_modules
 .expo
 yarn-error.log
 yarn.lock
