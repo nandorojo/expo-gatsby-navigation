@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import { Link as GatsbyLink } from 'gatsby'
 import { LinkProps } from 'expo-navigation-core'
 import { ExtraLinkProps, GatsbyWebProps } from './types'
@@ -22,17 +23,18 @@ export default function Link(props: LinkProps<ExtraLinkProps, GatsbyWebProps>) {
 	if (!internal) {
 		// TODO make this link match the react-native-web style reset
 		console.warn(
-			'You used the expo-gatsby-navigation Link component for an external link. This component is only intended for internal links.  Details:',
+			'You used the expo-gatsby-navigation <Link /> component for an external link. This component is only intended for internal links.  Details:',
 			{
 				routeName,
 				web,
 				params,
-			}
+			},
+			'\n\nhttps://www.gatsbyjs.org/docs/gatsby-link/#reminder-use-link-only-for-internal-links'
 		)
 		return (
-			<a style={{ font: 'inherit', ...style }} href={to}>
+			<Text accessibilityRole="link" style={style} href={to}>
 				{children}
-			</a>
+			</Text>
 		)
 	}
 

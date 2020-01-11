@@ -30,9 +30,10 @@ function Screen({ location }) {
 
 	const navigate = useCallback(
 		<To extends NavigateTo = NavigateTo>(route: To) => {
-			const path = route.web?.to ?? route.routeName
+			let path = route.web?.to ?? route.routeName
+			path = path[0] === '/' ? path : `/${path}` // ensure path starts with /
 
-			nav(path[0] === '/' ? path : `/${path}`, {
+			nav(path, {
 				state: route.params,
 				replace: route.web?.replace,
 			})

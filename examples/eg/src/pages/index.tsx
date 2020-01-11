@@ -2,5 +2,5 @@ import React from 'react'
 import { Text } from 'react-native'
 
 export default function Home() {
-	return <Text>ok</Text>
+	return <Text>Does it work?</Text>
 }

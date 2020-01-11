@@ -1,5 +1,10 @@
 node_modules
 build
-examples/next-nav/node_modules
+examples/expo-gatsby/node_modules
 .expo
 yarn-error.log
+yarn.lock
+
+/.cache 
+/public
+

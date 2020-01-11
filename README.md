@@ -1,5 +1,7 @@
 # Expo + Gatsby + React Navigation 🤵
 
+** Not ready yet, coming soon :) **
+
 A set of hooks that wrap the `react-navigation` API that you're used to, and make it work with Gatsby's built-in routing.
 
 This library helps me use the [Expo + Gatsby integration](https://docs.expo.io/versions/latest/guides/using-gatsby/) without stressing about navigation.
