@@ -2,8 +2,8 @@
 
 If you're just looking around, there are only two places you need to look to see how the set up works:
 
--   `App.tsx` file to see mobile code and `react-navigation` set up.
--   `src/pages/` folder to see how routing for gatsby works. **coming soon**
+- `App.tsx` file to see mobile code and `react-navigation` set up.
+- `src/pages/` folder to see how routing for gatsby works. **coming soon**
 
 # Run the example
 
@@ -22,7 +22,7 @@ yarn
 If you want to run on a mobile device using `expo`:
 
 ```sh
-expo start --ios
+yarn ios
 ```
 
 If you want to run in the browser using `gatsby`:
