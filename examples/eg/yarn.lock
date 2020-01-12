@@ -5353,16 +5353,16 @@ expo-font@~8.0.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-gatsby-navigation@../../expo-gatsby-navigation-0.0.3.tgz:
-  version "0.0.3"
-  resolved "../../expo-gatsby-navigation-0.0.3.tgz#fe72d6cd47b318c128a48e3522cc2bc6b785b280"
+expo-gatsby-navigation@../../expo-gatsby-navigation-0.0.4.tgz:
+  version "0.0.4"
+  resolved "../../expo-gatsby-navigation-0.0.4.tgz#68dacdd2beeec320fad5d676f3ea2f324046cd8d"
   dependencies:
     expo-navigation-core "../expo-navigation-core/expo-navigation-core-0.0.9.tgz"
     lodash "^4.17.15"
 
-expo-gatsby-navigation@../../expo-gatsby-navigation-0.0.4.tgz:
-  version "0.0.4"
-  resolved "../../expo-gatsby-navigation-0.0.4.tgz#68dacdd2beeec320fad5d676f3ea2f324046cd8d"
+expo-gatsby-navigation@../../expo-gatsby-navigation-0.0.5.tgz:
+  version "0.0.5"
+  resolved "../../expo-gatsby-navigation-0.0.5.tgz#6070aa93fe01ae284386e602d0a285331d62b07c"
   dependencies:
     expo-navigation-core "../expo-navigation-core/expo-navigation-core-0.0.9.tgz"
     lodash "^4.17.15"
