@@ -1,6 +1,6 @@
 {
 	"name": "expo-gatsby-navigation",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Make Gatsby and React Navigation play nicely together with an Expo/React Native Web app.",
 	"sideEffects": true,
 	"main": "build/index.js",

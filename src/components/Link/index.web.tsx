@@ -15,7 +15,8 @@ export default function Link(props: LinkProps<ExtraLinkProps, GatsbyWebProps>) {
 		params,
 	} = props
 
-	const to = web?.to ?? routeName
+	let to = web?.to ?? routeName
+	to = to[0] === '/' ? to : `/${to}`
 
 	// https://www.gatsbyjs.org/docs/gatsby-link/#reminder-use-link-only-for-internal-links
 	const internal = /^\/(?!\/)/.test(to)
@@ -28,6 +29,7 @@ export default function Link(props: LinkProps<ExtraLinkProps, GatsbyWebProps>) {
 				routeName,
 				web,
 				params,
+				to,
 			},
 			'\n\nhttps://www.gatsbyjs.org/docs/gatsby-link/#reminder-use-link-only-for-internal-links'
 		)
@@ -41,14 +43,14 @@ export default function Link(props: LinkProps<ExtraLinkProps, GatsbyWebProps>) {
 	return (
 		<GatsbyLink
 			{...gasbyLinkProps}
-			to={to[0] === '/' ? to : `/${to}`}
+			to={to}
 			activeStyle={web?.activeStyle}
 			partiallyActive={web?.partiallyActive}
 			style={style}
 			replace={web?.replace}
 			state={params}
 		>
-			{props.children}
+			<Text>{props.children}</Text>
 		</GatsbyLink>
 	)
 }

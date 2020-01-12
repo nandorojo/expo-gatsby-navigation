@@ -8,16 +8,16 @@ import { Link } from '..'
 // https://www.gatsbyjs.org/docs/unit-testing/#2-creating-a-configuration-file-for-jest
 
 describe('Link', () => {
-	it(`is a valid Gatsby link`, () => {
-		const component = mount(
-			<Link routeName="chat" params={{ roomId: 'hey!' }} />
-		)
+  it(`is a valid Gatsby link`, () => {
+    const component = mount(
+      <Link routeName="chat" params={{ roomId: 'hey!' }} />
+    )
 
-		expect(
-			component
-				.find('a')
-				.first()
-				.prop('href')
-		).toBe('/chat?roomId=hey!')
-	})
+    expect(
+      component
+        .find('a')
+        .first()
+        .prop('href')
+    ).toBe('/chat?roomId=hey!')
+  })
 })
