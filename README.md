@@ -14,9 +14,7 @@ Want to use `next.js` with expo instead? Check out [expo-next-react-navigation](
 
 ## Example
 
-TODO
-
-👾 [Github Repo](https://github.com/nandorojo/expo-gatsby-navigation/tree/master/examples/gatsby-nav) | 💻 [Website]() | 📱 [Open expo app directly]() | ☎️ [Expo app website]()
+👾 [Github Repo](https://github.com/nandorojo/expo-gatsby-navigation/tree/master/examples/eg) | 💻 [Website](https://eg.now.sh/)
 
 ## Install
 

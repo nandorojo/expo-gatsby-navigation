@@ -29,7 +29,6 @@ import { ExtraLinkProps, GatsbyWebProps } from './types'
  *
  */
 
-// TODO figure out how to add TS generics here
 const Link = React.forwardRef(
 	(
 		props: LinkProps<ExtraLinkProps, GatsbyWebProps>,

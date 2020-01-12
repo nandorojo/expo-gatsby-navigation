@@ -5050,16 +5050,10 @@ expo-module-scripts@^1.1.1:
     ts-jest "~24.0.2"
     typescript "^3.4.3"
 
-expo-navigation-core@../expo-navigation-core/expo-navigation-core-0.0.7.tgz:
-  version "0.0.7"
-  resolved "../expo-navigation-core/expo-navigation-core-0.0.7.tgz#089c557d318545374074e26e2b80ddf6358d619d"
-  dependencies:
-    lodash "^4.17.15"
-    react-navigation-hooks "^1.1.0"
-
-expo-navigation-core@../expo-navigation-core/expo-navigation-core-0.0.9.tgz:
-  version "0.0.9"
-  resolved "../expo-navigation-core/expo-navigation-core-0.0.9.tgz#75c1e1556c6c60e82c04ddfcab8eaa4df7e3b411"
+expo-navigation-core@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/expo-navigation-core/-/expo-navigation-core-0.0.10.tgz#ba71b8db76252dedc004ff1d724519556f9c50ce"
+  integrity sha512-nmWU9MkHHfl1dN33iU/Mx97xzh/e/lGeV4tYIZF30f1t+5enp4QVPmKDrqy9OSL35sYh5dWHWCAq4TMBxfCYhQ==
   dependencies:
     lodash "^4.17.15"
     react-navigation-hooks "^1.1.0"

@@ -1,35 +1,37 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
-  },
-  "dependencies": {
-    "@react-native-community/masked-view": "0.1.5",
-    "expo": "~36.0.0",
-    "expo-gatsby-navigation": "../../expo-gatsby-navigation-0.0.5.tgz",
-    "gatsby": "^2.18.21",
-    "gatsby-plugin-react-native-web": "^3.0.0-beta.5",
-    "react": "~16.9.0",
-    "react-dom": "~16.9.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
-    "react-native-gesture-handler": "~1.5.0",
-    "react-native-safe-area-context": "0.6.0",
-    "react-native-screens": "2.0.0-alpha.12",
-    "react-native-web": "~0.11.7",
-    "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^2.0.13"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@types/react": "~16.9.0",
-    "@types/react-native": "~0.60.23",
-    "babel-plugin-remove-graphql-queries": "^2.7.22",
-    "babel-preset-expo": "~8.0.0",
-    "typescript": "~3.6.3"
-  },
-  "private": true
+	"name": "expo-gatsby",
+	"main": "node_modules/expo/AppEntry.js",
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web",
+		"eject": "expo eject",
+		"build": "gatsby build"
+	},
+	"dependencies": {
+		"@react-native-community/masked-view": "0.1.5",
+		"expo": "~36.0.0",
+		"expo-gatsby-navigation": "^0.0.8",
+		"gatsby": "^2.18.21",
+		"gatsby-plugin-react-native-web": "^3.0.0-beta.5",
+		"react": "~16.9.0",
+		"react-dom": "~16.9.0",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+		"react-native-gesture-handler": "~1.5.0",
+		"react-native-safe-area-context": "0.6.0",
+		"react-native-screens": "2.0.0-alpha.12",
+		"react-native-web": "~0.11.7",
+		"react-navigation": "^4.0.10",
+		"react-navigation-stack": "^2.0.13"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.0.0",
+		"@types/react": "~16.9.0",
+		"@types/react-native": "~0.60.23",
+		"babel-plugin-remove-graphql-queries": "^2.7.22",
+		"babel-preset-expo": "~8.0.0",
+		"typescript": "~3.6.3"
+	},
+	"private": true
 }

@@ -5353,18 +5353,12 @@ expo-font@~8.0.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-gatsby-navigation@../../expo-gatsby-navigation-0.0.4.tgz:
-  version "0.0.4"
-  resolved "../../expo-gatsby-navigation-0.0.4.tgz#68dacdd2beeec320fad5d676f3ea2f324046cd8d"
+expo-gatsby-navigation@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/expo-gatsby-navigation/-/expo-gatsby-navigation-0.0.8.tgz#18870dbebd93e540be3c37a4f5a92438c126e777"
+  integrity sha512-uwHsPME47b6XcOrP2+W6E/7wpPHBOMNIKT5QTDrlNhgvMyFMa5gF89jf/yNmZcDj/LOTojwFi6yZ3ZE6fGXvJQ==
   dependencies:
-    expo-navigation-core "../expo-navigation-core/expo-navigation-core-0.0.9.tgz"
-    lodash "^4.17.15"
-
-expo-gatsby-navigation@../../expo-gatsby-navigation-0.0.5.tgz:
-  version "0.0.5"
-  resolved "../../expo-gatsby-navigation-0.0.5.tgz#6070aa93fe01ae284386e602d0a285331d62b07c"
-  dependencies:
-    expo-navigation-core "../expo-navigation-core/expo-navigation-core-0.0.9.tgz"
+    expo-navigation-core "0.0.10"
     lodash "^4.17.15"
 
 expo-keep-awake@~8.0.0:
@@ -5384,9 +5378,10 @@ expo-location@~8.0.0:
   dependencies:
     invariant "^2.2.4"
 
-expo-navigation-core@../expo-navigation-core/expo-navigation-core-0.0.9.tgz:
-  version "0.0.9"
-  resolved "../expo-navigation-core/expo-navigation-core-0.0.9.tgz#75c1e1556c6c60e82c04ddfcab8eaa4df7e3b411"
+expo-navigation-core@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/expo-navigation-core/-/expo-navigation-core-0.0.10.tgz#ba71b8db76252dedc004ff1d724519556f9c50ce"
+  integrity sha512-nmWU9MkHHfl1dN33iU/Mx97xzh/e/lGeV4tYIZF30f1t+5enp4QVPmKDrqy9OSL35sYh5dWHWCAq4TMBxfCYhQ==
   dependencies:
     lodash "^4.17.15"
     react-navigation-hooks "^1.1.0"
