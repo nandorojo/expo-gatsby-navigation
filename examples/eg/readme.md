@@ -2,8 +2,8 @@
 
 If you're just looking around, there are only two places you need to look to see how the set up works:
 
-- `App.tsx` file to see mobile code and `react-navigation` set up.
-- `src/pages/` folder to see how routing for gatsby works. **coming soon**
+-   `App.tsx` file to see mobile code and `react-navigation` set up.
+-   `src/pages/` folder to see how routing for gatsby works.
 
 # Run the example
 
@@ -33,16 +33,6 @@ yarn gatsby develop
 
 And open [http://localhost:8000](http://localhost:8000)
 
-## 📲 Run on your phone using expo
+## 💻 See Gatsby hosted website
 
-**[coming soon]**
-
-Download the expo app to your phone and open this link on your phone:
-
-📱 [Open expo app directly](https://exp.host/@kellycup8/gatsby) | ☎️ [Expo app website](https://expo.io/@kellycup8/gatsby)
-
-## 💻 See Next.js hosted website
-
-**[coming soon]**
-
-Link: [https://next-nav.fernandorojo.now.sh](https://gatsby.fernandorojo.now.sh)
+Link: [https://eg.now.sh](https://eg.now.sh)
