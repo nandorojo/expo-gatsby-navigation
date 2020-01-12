@@ -4,7 +4,7 @@ A set of hooks/components that wrap the `react-navigation` API that you're used 
 
 This library helps me use the [Expo + Gatsby integration](https://docs.expo.io/versions/latest/guides/using-gatsby/) without stressing about navigation.
 
-This is a new library. It should be working fine, but please leave an issue / PR if you find a bug :)
+_This is a new library. It should be working fine, but please leave an issue / PR if you find a bug :)_
 
 ---
 
