@@ -1,6 +1,6 @@
 {
 	"name": "expo-gatsby-navigation",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Make Gatsby and React Navigation play nicely together with an Expo/React Native Web app.",
 	"sideEffects": true,
 	"main": "build/index.js",
@@ -44,7 +44,7 @@
 		"react-test-renderer": "^16.12.0"
 	},
 	"dependencies": {
-		"expo-navigation-core": "../expo-navigation-core/expo-navigation-core-0.0.9.tgz",
+		"expo-navigation-core": "0.0.10",
 		"lodash": "^4.17.15"
 	}
 }
