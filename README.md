@@ -6,6 +6,8 @@ This library helps me use the [Expo + Gatsby integration](https://docs.expo.io/v
 
 _This is a new library. It should be working fine, but please leave an issue / PR if you find a bug :)_
 
+`react-navigation` v5 is not yet supported, but I'm working on it now :)
+
 ---
 
 Want to use `next.js` with expo instead? Check out [expo-next-react-navigation](https://github.com/nandorojo/expo-next-react-navigation).
