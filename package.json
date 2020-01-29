@@ -16,7 +16,8 @@
 		"test": "expo-module test",
 		"prepare": "expo-module prepare",
 		"prepublishOnly": "expo-module prepublishOnly",
-		"expo-module": "expo-module"
+		"expo-module": "expo-module",
+		"upload": "yarn publish --v5"
 	},
 	"files": [
 		"build"
@@ -44,7 +45,7 @@
 		"react-test-renderer": "^16.12.0"
 	},
 	"dependencies": {
-		"expo-navigation-core": "0.0.10",
+		"expo-navigation-core": "^0.1.0",
 		"lodash": "^4.17.15"
 	}
 }
