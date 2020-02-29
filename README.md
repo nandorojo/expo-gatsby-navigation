@@ -22,6 +22,12 @@ Want to use `next.js` with expo instead? Check out [expo-next-react-navigation](
 yarn add expo-gatsby-navigation
 ```
 
+For react-navigation `v5`:
+
+```sh
+yarn add expo-gatsby-navigation@v5
+```
+
 ## Table of contents
 
 -   [Set up](#set-up)
